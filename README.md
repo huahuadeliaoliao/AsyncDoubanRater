@@ -5,7 +5,7 @@ A rust crawler for crawling user ratings of movies
 
 ## Introduction
 
-This project is a Rust-based web crawler specifically designed to scrape user ratings of movies from a popular movie database website, Douban. It fetches data like movie titles, details, ratings, and groups them as per user-defined categories. This crawler is built using modern Rust asynchronous programming paradigms, ensuring efficient and concurrent data processing.
+This project is a Rust-based web crawler specifically designed to scrape user ratings of movies from a popular movie database website, Douban. It fetches data like movie titles, details, ratings, and groups them as per user-defined categories. This crawler is built using modern Rust asynchronous programming paradigms, ensuring efficient and concurrent data processing. At present, you need to manually add the crawl URL to collect.csv, and will add the function of directly crawling the homepage URL of the movie that the user has watched, and then crawling the rating information.
 
 ## Features
 
